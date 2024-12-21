@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogo de Productos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+  <div>
+    <nav class="navbar">
+    <div class="logo">Papiros Agendas</div>
+</div>
+
+<div class="container p-3 contenedor">
+<div id="app">
+<h1 class="animate__animated animate__bounce">Catálogo Linea Floral</h1>
+</div>
+</div>
+  
+  <button onclick="showNewProductForm()">Nuevo Producto</button>
+  <div id="product-cards"></div>
+  <div id="product-form-modal" class="modal">
+    <form id="product-form">
+      <input type="text" id="product-name" placeholder="Nombre" required>
+      <input type="text" id="product-description" placeholder="Descripción">
+      <input type="number" id="product-price" placeholder="Precio" required>
+      <button type="submit">Guardar</button>
+      <button type="button" onclick="hideProductForm()">Cancelar</button>
+    </form>
+  </div>
+
+  <div class="card-container">
+    <div class="card">
+    <img src="img/agenda 1.jpg" alt="Agenda 1">
+    <div class="card-content">
+    <h3>Floral Green</h3>
+    <p>Agenda diaria | Pasta dura | Argollada | Estampado con relieve | 380 Páginas.</p>
+    <a href="" class="btn">Adquirir</a>
+    <br><br>
+    <form>
+    Cantidad <select>
+    <option> 1 </option>
+    <option> 10 </option>
+    <option> 20 </option>
+    <option> 50 </option>
+    </select>
+    </form>
+    </div>
+</div>
+
+<div class="card">
+<img src="img/Agenda 2.jpg" alt="Agenda 2">
+    <div class="card-content">
+    <h3>Floral Intenso</h3>
+    <p>Agenda diaria | Pasta dura | Argollada | Estampado con relieve | 380 Páginas..</p>
+    <a href="" class="btn">Adquirir</a>
+    <br><br>
+
+    <form>
+    Cantidad <select>
+    <option> 1 </option>
+    <option> 10 </option>
+    <option> 20 </option>
+    <option> 50 </option>
+    </select>
+    </form>
+    </div>
+</div>
+
+<div class="card">
+    <img src="img/Agenda 3.jpg" alt="Agenda 3">
+    <div class="card-content">
+    <h3>Floral Retro</h3>
+    <p>Agenda diaria | Pasta dura | Argollada | Estampado con relieve | 380 Páginas.</p>
+    <a href="" class="btn">Adquirir</a>
+    <br><br>
+
+    <form>
+    Cantidad <select>
+    <option> 1 </option>
+    <option> 10 </option>
+    <option> 20 </option>
+    <option> 50 </option>
+    </select>
+    </form>
+    </div>
+</div>
+
+<div class="card">
+    <img src="img/Agenda 4.jpg" alt="Agenda 4">
+    <div class="card-content">
+    <h3>Floral Dream</h3>
+    <p>Agenda diaria | Pasta dura | Argollada | Estampado con relieve | 380 Páginas.</p>
+    <a href="" class="btn">Adquirir</a>
+    <br><br>
+
+    <form>
+    Cantidad <select>
+    <option> 1 </option>
+    <option> 10 </option>
+    <option> 20 </option>
+    <option> 50 </option>
+    </select>
+    </form>
+    </div>
+</div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <div>
+        <p>Todos los derechos reservados</p>
+        </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
